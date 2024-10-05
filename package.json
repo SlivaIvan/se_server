@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "forever": "^4.0.3",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^13.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^10.0.0"
+  }
+}
